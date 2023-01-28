@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 import tsconfigPaths from 'vite-tsconfig-paths'
 import react from '@vitejs/plugin-react'
-import { test } from "@/test"
+import { test } from "$lib/test"
 
 test()
 export default defineConfig({

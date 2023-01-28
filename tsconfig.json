@@ -1,7 +1,10 @@
 {
   "include": ["src", "vite.config.ts"],
   "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
     "esModuleInterop": true,
+    "moduleResolution": "node",
     "allowJs": true,
     "checkJs": true,
     "jsx": "react-jsx",
